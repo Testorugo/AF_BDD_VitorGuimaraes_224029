@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- Versão do modelo do Maven -->
+  <modelVersion>4.0.0</modelVersion>
+  
+  <!-- Identificação do grupo do projeto -->
+  <groupId>br.com.facens.qts</groupId>
+  
+  <!-- Identificação do artefato do projeto -->
+  <artifactId>BDD</artifactId>
+  
+  <!-- Versão do projeto -->
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- Dependências do projeto -->
+  <dependencies>
+    <!-- Dependência para o Cucumber (Java) -->
+    <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>1.2.6</version>
+    </dependency>
+    
+    <!-- Dependência para o Cucumber (JUnit) -->
+    <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>1.2.6</version>
+    </dependency>
+  </dependencies>
+</project>
