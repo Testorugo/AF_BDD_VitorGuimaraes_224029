@@ -9,7 +9,7 @@ Inicialmente, considere um cliente que deseja alugar um carro de luxo. Se esse c
 Esses cenários exemplificam como o sistema de locação de carros responde às diferentes necessidades e condições dos clientes, adaptando-se para garantir uma experiência satisfatória de locação, seja para reservas antecipadas ou demandas de última hora.</p>
 
 # Resolução
-<p>Feature: Sistema de Aluguel de Carros
+<p>Feature: Sistema de aluguel de carros
 
   Scenario: Reserva antecipada para um carro premium
     Given que um cliente pretende alugar um carro premium
