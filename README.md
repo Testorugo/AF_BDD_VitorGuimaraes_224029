@@ -1,32 +1,21 @@
 # BDD
 <p>O BDD, ou Desenvolvimento Orientado a Comportamento, é uma abordagem que usa exemplos concretos escritos em linguagem simples para descrever como um sistema deve se comportar. Ele promove a colaboração entre diferentes partes interessadas, como desenvolvedores e analistas de negócios, para garantir que o software atenda às necessidades do cliente.</p>
 
-# Cenário em questão
-<p>Tendo em vista o processo explicado anteriormente, crie um BDD com seu devido Gherkin com base no texto abaixo:
-  
-Imagine que você está planejando alugar um carro para uma viagem. Para facilitar esse processo, uma empresa de locação de carros desenvolveu um sistema com diferentes comportamentos, dependendo das circunstâncias da locação e do cliente.
-Inicialmente, considere um cliente que deseja alugar um carro de luxo. Se esse cliente realizar a reserva com antecedência de pelo menos uma semana, o sistema deve oferecer um desconto especial no valor total da locação. Por outro lado, suponha um cliente que necessita alugar um carro utilitário de última hora, sem qualquer reserva prévia. Nesse caso, o sistema deve ainda conseguir encontrar um veículo disponível e processar a locação rapidamente, mesmo que isso implique em um custo um pouco mais elevado devido à demanda urgente.
-Esses cenários exemplificam como o sistema de locação de carros responde às diferentes necessidades e condições dos clientes, adaptando-se para garantir uma experiência satisfatória de locação, seja para reservas antecipadas ou demandas de última hora.</p>
+# Pré-requisitos
+<p>Os sofwtares utilizados para a realização dos testes foram: Java Development Kit (JDK), Eclipse IDE, Apache Maven, Cucumber e JUnit. </p>
 
-# Resolução
-<p>Feature: Sistema de Aluguel de Carros
+# Executando os testes
+<p>Os testes foram executados usando o JUnit, um framework de teste unitário para Java. Cada cenário de teste definido usando o Cucumber foi encapsulado em métodos de teste JUnit. Ao executar os testes, o JUnit invocou esses métodos para verificar se o comportamento do software estava de acordo com as expectativas definidas nos cenários de teste. Os resultados dos testes foram analisados para garantir que todas as funcionalidades do sistema estavam operando corretamente e que nenhum erro havia sido introduzido durante o desenvolvimento do código-fonte.</p>
 
-  Scenario: Reserva antecipada para um carro premium
-    Given que um cliente pretende alugar um carro premium
-    And o cliente faz a reserva com pelo menos sete dias de antecedência
-    When o cliente confirma a reserva
-    Then o sistema deve fornecer um desconto especial na taxa total de aluguel
+# Executando arquivos_teste.feature
+![teste_bdd2](https://github.com/Testorugo/AF_BDD_VitorGuimaraes_224029/assets/114782204/4bd11b35-aba1-4025-ad5d-776834fcafa2)
 
-  Scenario: Aluguel imediato de um veículo utilitário
-    Given que um cliente necessita de um veículo utilitário com urgência
-    And o cliente não fez uma reserva prévia
-    When o cliente solicita o aluguel
-    Then o sistema deve localizar um veículo disponível
-    And o sistema deve processar o aluguel prontamente
-    And a taxa de aluguel deve ser ligeiramente mais alta devido à solicitação urgente</p>
+# Executando a classe Runner com o JUnit
+![teste_bdd](https://github.com/Testorugo/AF_BDD_VitorGuimaraes_224029/assets/114782204/f135c2eb-c1b6-49cd-a76c-cb901c719ff0)
 
 # Autor
 <ul>
   <li>Vitor Hugo Guimarães da Silva</li>
   <li>RA: 224029</li>
   <li>FACENS</li>
+</ul>
